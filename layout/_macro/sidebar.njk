@@ -34,7 +34,6 @@
         <div class="site-overview-wrap sidebar-panel">
           {{ partial('_partials/sidebar/site-overview.njk', {}, {cache: theme.cache.enable}) }}
 
-          {{- next_inject('sidebar') }}
         </div>
       </div>
 
@@ -45,6 +44,13 @@
         </div>
       {%- endif %}
     </div>
+
+    {%- if theme.google_adsense.enable %}
+    <div class="sidebar-inner ads">
+      {{- next_inject('sidebar') }}
+    </div>
+    {%- endif %}
   </aside>
+
   <div class="sidebar-dimmer"></div>
 {% endmacro %}
