@@ -28,7 +28,7 @@ custom_file_path:
   bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  style: source/_data/styles.styl
+  #style: source/_data/styles.styl
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -87,7 +87,7 @@ menu:
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
-  recommend: /recommend/ || fa fa-archive
+  # recommend: /recommend/ || fa fa-archive
   about: /about/ || fa fa-coffee
   # schedule: /schedule/ || fa fa-calendar
   # sitemap: /sitemap.xml || fa fa-sitemap
